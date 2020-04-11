@@ -1,5 +1,7 @@
 package team_project_another_emp;
 
+import java.util.Arrays;
+
 public class Test_foreach {
 	public static void main(String[] args) {
 		System.out.println("test foreach");
@@ -7,5 +9,6 @@ public class Test_foreach {
 		for(String s : str) {
 			System.out.println(s);
 		}
+		Arrays.asList(str).forEach(System.out::print);
 	}
 }
