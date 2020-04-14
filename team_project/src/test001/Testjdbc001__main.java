@@ -5,13 +5,12 @@ import javax.swing.JFrame;
 @SuppressWarnings("serial")
 public class Testjdbc001__main extends JFrame
 {
-	Testjdbc001_1model_dto_vo_entity_bean dto;
+	Testjdbc001_1model_dto dto;
 	
 	public Testjdbc001__main()
 	{
 		super();
-		dto = new Testjdbc001_1model_dto_vo_entity_bean();
-		new Testjdbc001_3controller(dto);
+		new Testjdbc001_3controller__setting();
 	}
 	public static void main(String[] args)
 	{
